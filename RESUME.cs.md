@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: tests
 file_count: 14
 delete_recommendation_percent: 90
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 14:47:00
 github_origin: no
 github_source_url: 
+first_commit_date: 2023-11-15
+last_commit_date: 2024-12-27
+commit_count: 3
 ---
 
 ## Description
@@ -24,3 +27,11 @@ Doporučení ke smazání: **90 %** — jen ruční testovací okno pro ovladač
 - Projekt nejde zbuildit, protože chybí odkazovaný `SearchTextBox.csproj`.
 - Žádná logika ani testy, jen `Window1` s pár položkami.
 - Poslední commit z 2024-12, ovladač se drží jinde.
+
+## Historie commitů
+
+- První commit: 2023-11-15
+- Poslední commit: 2024-12-27
+- Celkem commitů: 3
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
