@@ -1,5 +1,9 @@
 # sunamo.notmine.wpf.Tests
 
+## Short description
+
+Testovací WPF aplikace `TestUI` (.NET 9), která v jednom okně ukazuje ovládací prvek `SearchTextBox` s filtrováním jednoduchého seznamu. Repo neobsahuje samotný ovladač, jen ProjectReference na `sunamo.notmine\SearchTextBox`, takže se samo nezbuilduje. Jde o ukázkové okno bez produkčního využití.
+
 Testovací WPF aplikace (`TestUI`, .NET 9) pro ruční vyzkoušení ovládacího prvku `SearchTextBox`.
 
 ## Obsah

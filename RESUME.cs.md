@@ -1,15 +1,17 @@
 ---
-schema_version: 5
+schema_version: 6
 type: tests
 file_count: 14
-delete_recommendation_percent: 90
-generated_date: 2026-09-30
-generated_time: 14:47:00
-github_origin: no
+avg_lines_per_file: 28
+move_to_legacy_percent: 90
+generated_date: 2026-10-01
+generated_time: 16:41:13
 github_source_url: 
-first_commit_date: 2023-11-15
-last_commit_date: 2024-12-27
-commit_count: 3
+last_build_ok: 
+last_build_date: 
+last_tests_run_date: 
+covered_lines: 
+total_lines: 
 ---
 
 ## Description
@@ -21,17 +23,14 @@ Testovací WPF aplikace `TestUI` (.NET 9), která v jednom okně ukazuje ovláda
 Staženo z GitHubu: **ne** — nenalezen žádný zdroj na GitHubu, kód vznikl v repech sunamo.
 - Ověřeno: origin `sunamo/sunamo.notmine.wpf.Tests`, historie od 2023-11 jen autoři sunamo, žádné URL ani copyright v kódu. `gh search repos` "SearchTextBox WPF sections radio" a `gh search code` "ShowSectionButton SectionsStyles", "m_txtTest_OnSearch SearchEventArgs" nevrátily žádnou shodu, hash kandidáta tedy nebyl s čím porovnat. Testovaný ovladač je pravděpodobně z internetu (viz `SearchTextBox_JustDecompile` v `E:\vs_FromNetButNotOnPackageManager`), ale to není doložené GitHub repo.
 
-## Doporučení ke smazání
+## Doporučení přesunu do legacy
 
-Doporučení ke smazání: **90 %** — jen ruční testovací okno pro ovladač, který v repu není.
+Doporučení přesunu do sunamocz-legacy.visualstudio.com: **90 %** — jen ruční testovací okno pro ovladač, který v repu není.
 - Projekt nejde zbuildit, protože chybí odkazovaný `SearchTextBox.csproj`.
 - Žádná logika ani testy, jen `Window1` s pár položkami.
 - Poslední commit z 2024-12, ovladač se drží jinde.
 
-## Historie commitů
+## Vazby na moje repa
 
-- První commit: 2023-11-15
-- Poslední commit: 2024-12-27
-- Celkem commitů: 3
-
-- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
+- Submoduly: žádné
+- ProjectReference / PackageReference: žádné
