@@ -33,4 +33,4 @@ Doporučení přesunu do sunamocz-legacy.visualstudio.com: **90 %** — jen ruč
 ## Vazby na moje repa
 
 - Submoduly: žádné
-- ProjectReference / PackageReference: žádné
+- ProjectReference / PackageReference: `SearchTextBox` (ProjectReference, cíl chybí)

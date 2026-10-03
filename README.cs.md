@@ -16,4 +16,4 @@ Testovací WPF aplikace (`TestUI`, .NET 9) pro ruční vyzkoušení ovládacího
 
 - Projekt se odkazuje na `..\..\..\sunamo.notmine\SearchTextBox\SearchTextBox.csproj`, který v repu není.
 - Bez toho projektu se aplikace nezbuilduje.
-- Řešení: `sunamo.notmine.wpf.Tests.sln`.
+- Řešení: `sunamo.notmine.wpf.Tests.slnx`.
