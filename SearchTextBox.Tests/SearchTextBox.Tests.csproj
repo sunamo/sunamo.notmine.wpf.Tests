@@ -16,7 +16,7 @@
     </AppDesigner>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamo.notmine\SearchTextBox\SearchTextBox.csproj">
+    <ProjectReference Include="..\..\sunamo.notmine.wpf.unknownoriginal\SearchTextBox\SearchTextBox.csproj">
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
