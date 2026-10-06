@@ -1,17 +1,26 @@
 ---
-schema_version: 6
+schema_version: 11
 type: tests
+category_override: none
 file_count: 14
+file_extensions: cs:5, md:2, xaml:2, csproj:1, jsonanddelete:1, noext:1, resx:1, settings:1, slnx:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 28
+total_lines: not run
+metrics_lm: 2026-10-01 16:41:13
 move_to_legacy_percent: 90
-generated_date: 2026-10-01
-generated_time: 16:41:13
-github_source_url: 
-last_build_ok: 
-last_build_date: 
-last_tests_run_date: 
-covered_lines: 
-total_lines: 
+description_updated: 2026-10-01
+links_updated: 2026-10-01
+github_source_url: not found
+origin_status: found
+origin_checked: 2026-10-01
+article_source_url: not run
+article_status: pending
+article_checked: not run
+last_build_ok: not run
+last_build_date: not run
+last_tests_run_date: not run
+covered_lines: not run
 ---
 
 ## Description
